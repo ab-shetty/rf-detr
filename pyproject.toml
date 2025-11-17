@@ -44,7 +44,7 @@ dependencies = [
     "scipy",
     "timm",
     "tqdm",
-    "numpy",
+    "numpy>=1.23.0,<2.0.0",  # NumPy 2.x incompatible with PyTorch compiled against NumPy 1.x
     "accelerate",
     "transformers",
     "peft",
@@ -56,7 +56,7 @@ dependencies = [
     "open_clip_torch",
     "rf100vl",
     "pydantic",
-    "supervision",
+    "supervision @ git+https://github.com/ab-shetty/supervision.git",
     "matplotlib",
     "roboflow"
 ]
