@@ -51,7 +51,7 @@ dependencies = [
     "ninja",
     "einops",
     "pandas",
-    "pylabel @ git+https://github.com/ab-shetty/pylabel.git",",
+    "pylabel @ git+https://github.com/ab-shetty/pylabel.git",
     "polygraphy",
     "open_clip_torch",
     "rf100vl",
